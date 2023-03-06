@@ -1,0 +1,6 @@
+framework module Pods_HostelworldChallenge_HostelworldChallengeUITests {
+  umbrella header "Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

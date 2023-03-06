@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1739DFB44CDB8A0C63A4AF1B324C8613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1DEA08624025BEC886F9669C6100A272 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9564B91E07BD83432BDF224A204DE1F7 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60379681B46F10FC7711F57B8FD02BD4 /* Pods-HostelworldChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6017837822F9A195B65864C1891AA /* Pods-HostelworldChallengeTests-dummy.m */; };
+		6359DADBA0D335CF32D60F71D2D12909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A501D85B6158D244F7DA63938451250 /* Pods-HostelworldChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F02B50232A06773F1A6AFD3E48A78A /* Pods-HostelworldChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6D21A0397F324457EBDAAFD16E4666 /* Pods-HostelworldChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3ECB99137904ED7120CE94A011374E /* Pods-HostelworldChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C087557053E56D46EDE411C124D3D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7FE14CCA3546055B0D4E77C211DF1B8 /* Pods-HostelworldChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E23703F4A0DCDE66B4091330360A /* Pods-HostelworldChallenge-dummy.m */; };
+		D3F622FA7ED0A7BCC5E17D9A3750B409 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A5C92DA874AF0BCCF0FF761FFE07A /* Pods-HostelworldChallenge-HostelworldChallengeUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75827B54588B30B98226CA584E4EE8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60933A170F16F55C32DD25924C691957;
+			remoteInfo = "Pods-HostelworldChallenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1421E23703F4A0DCDE66B4091330360A /* Pods-HostelworldChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HostelworldChallenge-dummy.m"; sourceTree = "<group>"; };
+		1E81CCC4C7B0AF0320ECBA727B3E4050 /* Pods-HostelworldChallengeTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HostelworldChallengeTests"; path = Pods_HostelworldChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260889E21B62C18A14D76BE31F3EE777 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29F02B50232A06773F1A6AFD3E48A78A /* Pods-HostelworldChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HostelworldChallenge-umbrella.h"; sourceTree = "<group>"; };
+		2EE1EDA76028EB14ECB48ECBD58F6776 /* Pods-HostelworldChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HostelworldChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		40D1FFC9CCA0A0F004BD2F1649368104 /* Pods-HostelworldChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HostelworldChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		41C97ECE27E002256F59DFA4930F547E /* Pods-HostelworldChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HostelworldChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		47674EDC281C41D6B9C05DB51E167667 /* Pods-HostelworldChallenge-HostelworldChallengeUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HostelworldChallenge-HostelworldChallengeUITests"; path = Pods_HostelworldChallenge_HostelworldChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CE20014011495583BDF58201DF1DF8 /* Pods-HostelworldChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HostelworldChallenge-Info.plist"; sourceTree = "<group>"; };
+		571CBC4C0646168ED95692A9D9323BC1 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests-Info.plist"; sourceTree = "<group>"; };
+		689A5C92DA874AF0BCCF0FF761FFE07A /* Pods-HostelworldChallenge-HostelworldChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests-dummy.m"; sourceTree = "<group>"; };
+		700D65136A95CFE305FF3F6AC9B3B8E6 /* Pods-HostelworldChallenge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HostelworldChallenge"; path = Pods_HostelworldChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7202A636CFD87C688EF0931C83B9F88D /* Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7382F489861B7D464194EE7FB97EA72E /* Pods-HostelworldChallenge-HostelworldChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74AB4850CF23455266647BD6025BF625 /* Pods-HostelworldChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HostelworldChallengeTests.modulemap"; sourceTree = "<group>"; };
+		7BA3B05EF35C7D9D50E54DC92C1269DB /* Pods-HostelworldChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HostelworldChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		9564B91E07BD83432BDF224A204DE1F7 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE04DA8C7FF6CCCD3975D9CA9B1167E /* Pods-HostelworldChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HostelworldChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E28FAE4891892D542DD9EEF828CF115 /* Pods-HostelworldChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HostelworldChallenge.modulemap"; sourceTree = "<group>"; };
+		B7E6F6D541320EE349372402A06279F1 /* Pods-HostelworldChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HostelworldChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA3ECB99137904ED7120CE94A011374E /* Pods-HostelworldChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HostelworldChallengeTests-umbrella.h"; sourceTree = "<group>"; };
+		C4E1CAD708B42A80832552F6D9381BC6 /* Pods-HostelworldChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HostelworldChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9A58178B490BE0FEF7D4534F00C4FB /* Pods-HostelworldChallenge-HostelworldChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests.modulemap"; sourceTree = "<group>"; };
+		D638750D40860BE6D238FF4A587936FB /* Pods-HostelworldChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HostelworldChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E13B561F728D80A1EBBA67B08BA82338 /* Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F22453AA350EBB393ADA0066F4658BDD /* Pods-HostelworldChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HostelworldChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5D6017837822F9A195B65864C1891AA /* Pods-HostelworldChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HostelworldChallengeTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511CC8536B771AC5932E3D1532A94566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1739DFB44CDB8A0C63A4AF1B324C8613 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9565A4FEDFA99AB1D6D122AE78427ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6359DADBA0D335CF32D60F71D2D12909 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E68C4F448A4104BB38B3D793CF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C087557053E56D46EDE411C124D3D38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489DA314CB8833105B69B564D8A0EEB2 /* Pods-HostelworldChallenge-HostelworldChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A58178B490BE0FEF7D4534F00C4FB /* Pods-HostelworldChallenge-HostelworldChallengeUITests.modulemap */,
+				260889E21B62C18A14D76BE31F3EE777 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-acknowledgements.markdown */,
+				7382F489861B7D464194EE7FB97EA72E /* Pods-HostelworldChallenge-HostelworldChallengeUITests-acknowledgements.plist */,
+				689A5C92DA874AF0BCCF0FF761FFE07A /* Pods-HostelworldChallenge-HostelworldChallengeUITests-dummy.m */,
+				571CBC4C0646168ED95692A9D9323BC1 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-Info.plist */,
+				9564B91E07BD83432BDF224A204DE1F7 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h */,
+				E13B561F728D80A1EBBA67B08BA82338 /* Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig */,
+				7202A636CFD87C688EF0931C83B9F88D /* Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig */,
+			);
+			name = "Pods-HostelworldChallenge-HostelworldChallengeUITests";
+			path = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AA8685B5720A98C44BC572DAA6CA9994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700D65136A95CFE305FF3F6AC9B3B8E6 /* Pods-HostelworldChallenge */,
+				47674EDC281C41D6B9C05DB51E167667 /* Pods-HostelworldChallenge-HostelworldChallengeUITests */,
+				1E81CCC4C7B0AF0320ECBA727B3E4050 /* Pods-HostelworldChallengeTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A219D4AFB17770572F52FA6688C2F1 /* Pods-HostelworldChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AB4850CF23455266647BD6025BF625 /* Pods-HostelworldChallengeTests.modulemap */,
+				D638750D40860BE6D238FF4A587936FB /* Pods-HostelworldChallengeTests-acknowledgements.markdown */,
+				9DE04DA8C7FF6CCCD3975D9CA9B1167E /* Pods-HostelworldChallengeTests-acknowledgements.plist */,
+				F5D6017837822F9A195B65864C1891AA /* Pods-HostelworldChallengeTests-dummy.m */,
+				7BA3B05EF35C7D9D50E54DC92C1269DB /* Pods-HostelworldChallengeTests-Info.plist */,
+				BA3ECB99137904ED7120CE94A011374E /* Pods-HostelworldChallengeTests-umbrella.h */,
+				C4E1CAD708B42A80832552F6D9381BC6 /* Pods-HostelworldChallengeTests.debug.xcconfig */,
+				41C97ECE27E002256F59DFA4930F547E /* Pods-HostelworldChallengeTests.release.xcconfig */,
+			);
+			name = "Pods-HostelworldChallengeTests";
+			path = "Target Support Files/Pods-HostelworldChallengeTests";
+			sourceTree = "<group>";
+		};
+		CA560FE8C56D2AD6CEF04774AED7DE91 /* Pods-HostelworldChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				9E28FAE4891892D542DD9EEF828CF115 /* Pods-HostelworldChallenge.modulemap */,
+				F22453AA350EBB393ADA0066F4658BDD /* Pods-HostelworldChallenge-acknowledgements.markdown */,
+				B7E6F6D541320EE349372402A06279F1 /* Pods-HostelworldChallenge-acknowledgements.plist */,
+				1421E23703F4A0DCDE66B4091330360A /* Pods-HostelworldChallenge-dummy.m */,
+				54CE20014011495583BDF58201DF1DF8 /* Pods-HostelworldChallenge-Info.plist */,
+				29F02B50232A06773F1A6AFD3E48A78A /* Pods-HostelworldChallenge-umbrella.h */,
+				2EE1EDA76028EB14ECB48ECBD58F6776 /* Pods-HostelworldChallenge.debug.xcconfig */,
+				40D1FFC9CCA0A0F004BD2F1649368104 /* Pods-HostelworldChallenge.release.xcconfig */,
+			);
+			name = "Pods-HostelworldChallenge";
+			path = "Target Support Files/Pods-HostelworldChallenge";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AA8685B5720A98C44BC572DAA6CA9994 /* Products */,
+				EFE9A7C9202279102399931D402D83D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE9A7C9202279102399931D402D83D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA560FE8C56D2AD6CEF04774AED7DE91 /* Pods-HostelworldChallenge */,
+				489DA314CB8833105B69B564D8A0EEB2 /* Pods-HostelworldChallenge-HostelworldChallengeUITests */,
+				B2A219D4AFB17770572F52FA6688C2F1 /* Pods-HostelworldChallengeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F9D4B5C59D3A78865C5D8A3E0CB2131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA08624025BEC886F9669C6100A272 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD92D874DD8DCDA3A5884C17420842C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A501D85B6158D244F7DA63938451250 /* Pods-HostelworldChallenge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48F8AB4C9F60E2BAEB0F903523BE8A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6D21A0397F324457EBDAAFD16E4666 /* Pods-HostelworldChallengeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60933A170F16F55C32DD25924C691957 /* Pods-HostelworldChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E18B4166188EF56992BA9469C359E6A /* Build configuration list for PBXNativeTarget "Pods-HostelworldChallenge" */;
+			buildPhases = (
+				5FD92D874DD8DCDA3A5884C17420842C /* Headers */,
+				CFB640E97C61AAB910A8AB1438434DE1 /* Sources */,
+				9565A4FEDFA99AB1D6D122AE78427ED4 /* Frameworks */,
+				3F96CFFDBA6D731271608F3981F8B404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HostelworldChallenge";
+			productName = Pods_HostelworldChallenge;
+			productReference = 700D65136A95CFE305FF3F6AC9B3B8E6 /* Pods-HostelworldChallenge */;
+			productType = "com.apple.product-type.framework";
+		};
+		75A19B1680CB7616240DE2583014D98C /* Pods-HostelworldChallenge-HostelworldChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFA29780F3114EEE5EA6D281A8BB741 /* Build configuration list for PBXNativeTarget "Pods-HostelworldChallenge-HostelworldChallengeUITests" */;
+			buildPhases = (
+				4F9D4B5C59D3A78865C5D8A3E0CB2131 /* Headers */,
+				AD8C3E1F75D5251D551DD4A3092D992F /* Sources */,
+				511CC8536B771AC5932E3D1532A94566 /* Frameworks */,
+				2C3BC16CA7A9701C3DA19597BBCAE55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HostelworldChallenge-HostelworldChallengeUITests";
+			productName = Pods_HostelworldChallenge_HostelworldChallengeUITests;
+			productReference = 47674EDC281C41D6B9C05DB51E167667 /* Pods-HostelworldChallenge-HostelworldChallengeUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E97C8B5ABC194BA594C5372C78C55014 /* Pods-HostelworldChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7062D637C6875E95196B8464108D4C70 /* Build configuration list for PBXNativeTarget "Pods-HostelworldChallengeTests" */;
+			buildPhases = (
+				A48F8AB4C9F60E2BAEB0F903523BE8A5 /* Headers */,
+				6418667A629D15DA48117F14E11F1292 /* Sources */,
+				F81E68C4F448A4104BB38B3D793CF60E /* Frameworks */,
+				BE8114E3D5B2DDD773AC894FB259F22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089BB07BEA0F6EDB236A8AD775A4E3D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-HostelworldChallengeTests";
+			productName = Pods_HostelworldChallengeTests;
+			productReference = 1E81CCC4C7B0AF0320ECBA727B3E4050 /* Pods-HostelworldChallengeTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA8685B5720A98C44BC572DAA6CA9994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60933A170F16F55C32DD25924C691957 /* Pods-HostelworldChallenge */,
+				75A19B1680CB7616240DE2583014D98C /* Pods-HostelworldChallenge-HostelworldChallengeUITests */,
+				E97C8B5ABC194BA594C5372C78C55014 /* Pods-HostelworldChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3BC16CA7A9701C3DA19597BBCAE55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F96CFFDBA6D731271608F3981F8B404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8114E3D5B2DDD773AC894FB259F22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6418667A629D15DA48117F14E11F1292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60379681B46F10FC7711F57B8FD02BD4 /* Pods-HostelworldChallengeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8C3E1F75D5251D551DD4A3092D992F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F622FA7ED0A7BCC5E17D9A3750B409 /* Pods-HostelworldChallenge-HostelworldChallengeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB640E97C61AAB910A8AB1438434DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FE14CCA3546055B0D4E77C211DF1B8 /* Pods-HostelworldChallenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		089BB07BEA0F6EDB236A8AD775A4E3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HostelworldChallenge";
+			target = 60933A170F16F55C32DD25924C691957 /* Pods-HostelworldChallenge */;
+			targetProxy = 75827B54588B30B98226CA584E4EE8C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FB2E9B8AC62B3225CD6F4DACF655094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C97ECE27E002256F59DFA4930F547E /* Pods-HostelworldChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25B3D1F3FE3A69CB4A2E86E43D6D1836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13B561F728D80A1EBBA67B08BA82338 /* Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests/Pods-HostelworldChallenge-HostelworldChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests/Pods-HostelworldChallenge-HostelworldChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		378F4AE3F256600923D48CDC2ADE6092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE1EDA76028EB14ECB48ECBD58F6776 /* Pods-HostelworldChallenge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69757EB2C53E821CEE9066881B3695B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7202A636CFD87C688EF0931C83B9F88D /* Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests/Pods-HostelworldChallenge-HostelworldChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests/Pods-HostelworldChallenge-HostelworldChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		796EA99E029D6E019ED7A5906A588D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E1CAD708B42A80832552F6D9381BC6 /* Pods-HostelworldChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD363D768CDE11496E4D01BB4D9D5F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D1FFC9CCA0A0F004BD2F1649368104 /* Pods-HostelworldChallenge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E18B4166188EF56992BA9469C359E6A /* Build configuration list for PBXNativeTarget "Pods-HostelworldChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378F4AE3F256600923D48CDC2ADE6092 /* Debug */,
+				CD363D768CDE11496E4D01BB4D9D5F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7062D637C6875E95196B8464108D4C70 /* Build configuration list for PBXNativeTarget "Pods-HostelworldChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796EA99E029D6E019ED7A5906A588D2A /* Debug */,
+				1FB2E9B8AC62B3225CD6F4DACF655094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFA29780F3114EEE5EA6D281A8BB741 /* Build configuration list for PBXNativeTarget "Pods-HostelworldChallenge-HostelworldChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B3D1F3FE3A69CB4A2E86E43D6D1836 /* Debug */,
+				69757EB2C53E821CEE9066881B3695B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

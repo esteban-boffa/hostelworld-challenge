@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84938152990F97C18DC24187 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1532ECCB3E5F727DFD9234 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework */; };
+		9B77115ACA52D84CC40D5512 /* Pods_HostelworldChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C044A8D985DB233B6B89060 /* Pods_HostelworldChallenge.framework */; };
+		ADE0B5AEB9A0C86EDE742AEB /* Pods_HostelworldChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD10AC3C3DBA74C62842447 /* Pods_HostelworldChallengeTests.framework */; };
+		E9F5536E29B656A100328A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5536D29B656A100328A38 /* AppDelegate.swift */; };
+		E9F5537029B656A100328A38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5536F29B656A100328A38 /* SceneDelegate.swift */; };
+		E9F5537229B656A100328A38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5537129B656A100328A38 /* ViewController.swift */; };
+		E9F5537529B656A100328A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F5537329B656A100328A38 /* Main.storyboard */; };
+		E9F5537729B656A200328A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F5537629B656A200328A38 /* Assets.xcassets */; };
+		E9F5537A29B656A200328A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F5537829B656A200328A38 /* LaunchScreen.storyboard */; };
+		E9F5538529B656A200328A38 /* HostelworldChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5538429B656A200328A38 /* HostelworldChallengeTests.swift */; };
+		E9F5538F29B656A200328A38 /* HostelworldChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5538E29B656A200328A38 /* HostelworldChallengeUITests.swift */; };
+		E9F5539129B656A200328A38 /* HostelworldChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5539029B656A200328A38 /* HostelworldChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F5538129B656A200328A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F5536229B656A100328A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F5536929B656A100328A38;
+			remoteInfo = HostelworldChallenge;
+		};
+		E9F5538B29B656A200328A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F5536229B656A100328A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F5536929B656A100328A38;
+			remoteInfo = HostelworldChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BFE9C96CC08BC739FE7755 /* Pods-HostelworldChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		597CD0DA859F474D9F718D82 /* Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests/Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C044A8D985DB233B6B89060 /* Pods_HostelworldChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HostelworldChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D31C68440406FE9B337A41F /* Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-HostelworldChallenge-HostelworldChallengeUITests/Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F78B913C42D895246555683 /* Pods-HostelworldChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallenge.debug.xcconfig"; path = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3CAEF1B3CCDEA30ACE8D38 /* Pods-HostelworldChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1532ECCB3E5F727DFD9234 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HostelworldChallenge_HostelworldChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50F5F05B96D09B5586F17BB /* Pods-HostelworldChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallenge.release.xcconfig"; path = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		E9F5536A29B656A100328A38 /* HostelworldChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostelworldChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5536D29B656A100328A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9F5536F29B656A100328A38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9F5537129B656A100328A38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9F5537429B656A100328A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F5537629B656A200328A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F5537929B656A200328A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F5537B29B656A200328A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F5538029B656A200328A38 /* HostelworldChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostelworldChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5538429B656A200328A38 /* HostelworldChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelworldChallengeTests.swift; sourceTree = "<group>"; };
+		E9F5538A29B656A200328A38 /* HostelworldChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostelworldChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5538E29B656A200328A38 /* HostelworldChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelworldChallengeUITests.swift; sourceTree = "<group>"; };
+		E9F5539029B656A200328A38 /* HostelworldChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelworldChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBD10AC3C3DBA74C62842447 /* Pods_HostelworldChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HostelworldChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F5536729B656A100328A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B77115ACA52D84CC40D5512 /* Pods_HostelworldChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5537D29B656A200328A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE0B5AEB9A0C86EDE742AEB /* Pods_HostelworldChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5538729B656A200328A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84938152990F97C18DC24187 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ED8E17512F5973CF4918CEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F78B913C42D895246555683 /* Pods-HostelworldChallenge.debug.xcconfig */,
+				D50F5F05B96D09B5586F17BB /* Pods-HostelworldChallenge.release.xcconfig */,
+				6D31C68440406FE9B337A41F /* Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig */,
+				597CD0DA859F474D9F718D82 /* Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig */,
+				AA3CAEF1B3CCDEA30ACE8D38 /* Pods-HostelworldChallengeTests.debug.xcconfig */,
+				03BFE9C96CC08BC739FE7755 /* Pods-HostelworldChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		767EB0711A6ADDCD814C50FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C044A8D985DB233B6B89060 /* Pods_HostelworldChallenge.framework */,
+				CF1532ECCB3E5F727DFD9234 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework */,
+				EBD10AC3C3DBA74C62842447 /* Pods_HostelworldChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F5536129B656A100328A38 = {
+			isa = PBXGroup;
+			children = (
+				E9F5536C29B656A100328A38 /* HostelworldChallenge */,
+				E9F5538329B656A200328A38 /* HostelworldChallengeTests */,
+				E9F5538D29B656A200328A38 /* HostelworldChallengeUITests */,
+				E9F5536B29B656A100328A38 /* Products */,
+				6ED8E17512F5973CF4918CEB /* Pods */,
+				767EB0711A6ADDCD814C50FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F5536B29B656A100328A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5536A29B656A100328A38 /* HostelworldChallenge.app */,
+				E9F5538029B656A200328A38 /* HostelworldChallengeTests.xctest */,
+				E9F5538A29B656A200328A38 /* HostelworldChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F5536C29B656A100328A38 /* HostelworldChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5536D29B656A100328A38 /* AppDelegate.swift */,
+				E9F5536F29B656A100328A38 /* SceneDelegate.swift */,
+				E9F5537129B656A100328A38 /* ViewController.swift */,
+				E9F5537329B656A100328A38 /* Main.storyboard */,
+				E9F5537629B656A200328A38 /* Assets.xcassets */,
+				E9F5537829B656A200328A38 /* LaunchScreen.storyboard */,
+				E9F5537B29B656A200328A38 /* Info.plist */,
+			);
+			path = HostelworldChallenge;
+			sourceTree = "<group>";
+		};
+		E9F5538329B656A200328A38 /* HostelworldChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5538429B656A200328A38 /* HostelworldChallengeTests.swift */,
+			);
+			path = HostelworldChallengeTests;
+			sourceTree = "<group>";
+		};
+		E9F5538D29B656A200328A38 /* HostelworldChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5538E29B656A200328A38 /* HostelworldChallengeUITests.swift */,
+				E9F5539029B656A200328A38 /* HostelworldChallengeUITestsLaunchTests.swift */,
+			);
+			path = HostelworldChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F5536929B656A100328A38 /* HostelworldChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5539429B656A200328A38 /* Build configuration list for PBXNativeTarget "HostelworldChallenge" */;
+			buildPhases = (
+				91F59483ABC111027C9787C9 /* [CP] Check Pods Manifest.lock */,
+				E9F5536629B656A100328A38 /* Sources */,
+				E9F5536729B656A100328A38 /* Frameworks */,
+				E9F5536829B656A100328A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HostelworldChallenge;
+			productName = HostelworldChallenge;
+			productReference = E9F5536A29B656A100328A38 /* HostelworldChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F5537F29B656A200328A38 /* HostelworldChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5539729B656A200328A38 /* Build configuration list for PBXNativeTarget "HostelworldChallengeTests" */;
+			buildPhases = (
+				020FA732C47D994A4E34FE10 /* [CP] Check Pods Manifest.lock */,
+				E9F5537C29B656A200328A38 /* Sources */,
+				E9F5537D29B656A200328A38 /* Frameworks */,
+				E9F5537E29B656A200328A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F5538229B656A200328A38 /* PBXTargetDependency */,
+			);
+			name = HostelworldChallengeTests;
+			productName = HostelworldChallengeTests;
+			productReference = E9F5538029B656A200328A38 /* HostelworldChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F5538929B656A200328A38 /* HostelworldChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5539A29B656A200328A38 /* Build configuration list for PBXNativeTarget "HostelworldChallengeUITests" */;
+			buildPhases = (
+				45B42637F1509461144F6998 /* [CP] Check Pods Manifest.lock */,
+				E9F5538629B656A200328A38 /* Sources */,
+				E9F5538729B656A200328A38 /* Frameworks */,
+				E9F5538829B656A200328A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F5538C29B656A200328A38 /* PBXTargetDependency */,
+			);
+			name = HostelworldChallengeUITests;
+			productName = HostelworldChallengeUITests;
+			productReference = E9F5538A29B656A200328A38 /* HostelworldChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F5536229B656A100328A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E9F5536929B656A100328A38 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					E9F5537F29B656A200328A38 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E9F5536929B656A100328A38;
+					};
+					E9F5538929B656A200328A38 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E9F5536929B656A100328A38;
+					};
+				};
+			};
+			buildConfigurationList = E9F5536529B656A100328A38 /* Build configuration list for PBXProject "HostelworldChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F5536129B656A100328A38;
+			productRefGroup = E9F5536B29B656A100328A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F5536929B656A100328A38 /* HostelworldChallenge */,
+				E9F5537F29B656A200328A38 /* HostelworldChallengeTests */,
+				E9F5538929B656A200328A38 /* HostelworldChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F5536829B656A100328A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5537A29B656A200328A38 /* LaunchScreen.storyboard in Resources */,
+				E9F5537729B656A200328A38 /* Assets.xcassets in Resources */,
+				E9F5537529B656A100328A38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5537E29B656A200328A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5538829B656A200328A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		020FA732C47D994A4E34FE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HostelworldChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B42637F1509461144F6998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HostelworldChallenge-HostelworldChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F59483ABC111027C9787C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HostelworldChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F5536629B656A100328A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5537229B656A100328A38 /* ViewController.swift in Sources */,
+				E9F5536E29B656A100328A38 /* AppDelegate.swift in Sources */,
+				E9F5537029B656A100328A38 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5537C29B656A200328A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5538529B656A200328A38 /* HostelworldChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5538629B656A200328A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5539129B656A200328A38 /* HostelworldChallengeUITestsLaunchTests.swift in Sources */,
+				E9F5538F29B656A200328A38 /* HostelworldChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F5538229B656A200328A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F5536929B656A100328A38 /* HostelworldChallenge */;
+			targetProxy = E9F5538129B656A200328A38 /* PBXContainerItemProxy */;
+		};
+		E9F5538C29B656A200328A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F5536929B656A100328A38 /* HostelworldChallenge */;
+			targetProxy = E9F5538B29B656A200328A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9F5537329B656A100328A38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5537429B656A100328A38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F5537829B656A200328A38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5537929B656A200328A38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F5539229B656A200328A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F5539329B656A200328A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F5539529B656A200328A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F78B913C42D895246555683 /* Pods-HostelworldChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATUBAYCUS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HostelworldChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esteban.HostelworldChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F5539629B656A200328A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50F5F05B96D09B5586F17BB /* Pods-HostelworldChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATUBAYCUS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HostelworldChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esteban.HostelworldChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9F5539829B656A200328A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3CAEF1B3CCDEA30ACE8D38 /* Pods-HostelworldChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATUBAYCUS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esteban.HostelworldChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HostelworldChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HostelworldChallenge";
+			};
+			name = Debug;
+		};
+		E9F5539929B656A200328A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BFE9C96CC08BC739FE7755 /* Pods-HostelworldChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATUBAYCUS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esteban.HostelworldChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HostelworldChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HostelworldChallenge";
+			};
+			name = Release;
+		};
+		E9F5539B29B656A200328A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D31C68440406FE9B337A41F /* Pods-HostelworldChallenge-HostelworldChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATUBAYCUS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esteban.HostelworldChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HostelworldChallenge;
+			};
+			name = Debug;
+		};
+		E9F5539C29B656A200328A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597CD0DA859F474D9F718D82 /* Pods-HostelworldChallenge-HostelworldChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATUBAYCUS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Esteban.HostelworldChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HostelworldChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F5536529B656A100328A38 /* Build configuration list for PBXProject "HostelworldChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5539229B656A200328A38 /* Debug */,
+				E9F5539329B656A200328A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5539429B656A200328A38 /* Build configuration list for PBXNativeTarget "HostelworldChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5539529B656A200328A38 /* Debug */,
+				E9F5539629B656A200328A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5539729B656A200328A38 /* Build configuration list for PBXNativeTarget "HostelworldChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5539829B656A200328A38 /* Debug */,
+				E9F5539929B656A200328A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5539A29B656A200328A38 /* Build configuration list for PBXNativeTarget "HostelworldChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5539B29B656A200328A38 /* Debug */,
+				E9F5539C29B656A200328A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F5536229B656A100328A38 /* Project object */;
+}

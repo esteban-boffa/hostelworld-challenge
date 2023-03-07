@@ -62,10 +62,15 @@ extension HomeViewModel {
                 self.showingProgressView = false
                 switch result {
                 case .success(let properties):
+                    #if DEBUG
+                    print("SUCCESS!")
+                    #endif
                     self.properties = properties
                 case .failure(let error):
                     // Handle error
-                    print(error)
+                    #if DEBUG
+                    print("ERROR --> \(error)")
+                    #endif
                 }
             }
         }

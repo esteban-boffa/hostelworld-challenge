@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Image: Codable {
+struct PropertyImage: Codable {
     let suffix: String
     let prefix: String
 }

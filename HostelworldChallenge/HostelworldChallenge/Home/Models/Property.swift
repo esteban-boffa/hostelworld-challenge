@@ -14,6 +14,6 @@ struct Property: Codable {
     let latitude: String
     let longitude: String
     let type: String
-    let images: [Image]
+    let images: [PropertyImage]
     let overallRating: OverallRating
 }

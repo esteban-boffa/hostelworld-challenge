@@ -17,7 +17,7 @@ final class PropertyTableViewCell: UITableViewCell {
         static let city = "City: "
         static let overallRating = "Overall rating: "
         static let percentageSimbol = "%"
-        static let propertyImageViewSize: CGFloat = 50
+        static let propertyImageViewSize: CGFloat = 70
     }
 
     // MARK: Constants
@@ -30,7 +30,7 @@ final class PropertyTableViewCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .left
-        label.font = label.font.withSize(20)
+        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         return label
     }()
 
@@ -61,10 +61,10 @@ final class PropertyTableViewCell: UITableViewCell {
     private lazy var propertyImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.backgroundColor = .lightGray
-        imageView.layer.cornerRadius = 25
+        imageView.layer.cornerRadius = 35
         return imageView
     }()
 
@@ -94,6 +94,7 @@ extension PropertyTableViewCell {
         propertyTypeLabel.text = Constants.type + data.propertyType
         cityNameLabel.text = Constants.city + data.cityName
         overallRatingLabel.text = Constants.overallRating + String(data.overallRatingPercentage) + Constants.percentageSimbol
+        propertyImageView.setRemoteImage(imageURL: data.thumbnailImage)
     }
 }
 

@@ -68,7 +68,7 @@ struct TableView: UIViewRepresentable {
 
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             tableView.deselectRow(at: indexPath, animated: false)
-            self.tableView.viewModel.fetchPropertyDetail(for: indexPath)
+            self.tableView.viewModel.didSelectRowAt(indexPath)
         }
     }
 

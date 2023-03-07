@@ -24,6 +24,7 @@ final class HomeCoordinator: CoordinatorProtocol {
 
     var presentationStyle: CoordinatorPresentationStyle
     var rootViewController: UIViewController?
+    var propertyDetailCoordinator: PropertyDetailCoordinator?
     weak var delegate: HomeCoordinatorDelegate?
 
     @MainActor
@@ -58,9 +59,31 @@ final class HomeCoordinator: CoordinatorProtocol {
 // MARK: Private methods
 
 private extension HomeCoordinator {
+    @MainActor
+    func showPropertyDetailView(with id: String) {
+        guard let navigationController = rootViewController as? UINavigationController else { return }
+        propertyDetailCoordinator = PropertyDetailCoordinator(presentationStyle: .pushed(navigationController), id: id)
+        propertyDetailCoordinator?.delegate = self
+        _ = propertyDetailCoordinator?.start()
+        propertyDetailCoordinator?.showPropertyDetailView()
+    }
+
     func handleViewDisappearance() {}
+}
+
+// MARK: PropertyDetailCoordinatorDelegate
+
+extension HomeCoordinator: PropertyDetailCoordinatorDelegate {
+    func didStopPropertyDetailCoordinator() {
+        propertyDetailCoordinator = nil
+    }
 }
 
 // MARK: HomeViewModelDelegate
 
-extension HomeCoordinator: HomeViewModelDelegate {}
+extension HomeCoordinator: HomeViewModelDelegate {
+    @MainActor
+    func didTapCell(with propertyID: String) {
+        showPropertyDetailView(with: propertyID)
+    }
+}

@@ -25,7 +25,8 @@ struct TableView: UIViewRepresentable {
     func makeUIView(context: UIViewRepresentableContext<TableView>) -> UITableView {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.separatorStyle = .none
+        tableView.separatorStyle = .singleLine
+        tableView.showsVerticalScrollIndicator = false
         tableView.register(PropertyTableViewCell.self, forCellReuseIdentifier: PropertyTableViewCell.cellIdentifier)
         tableView.delegate = context.coordinator
         tableView.dataSource = context.coordinator

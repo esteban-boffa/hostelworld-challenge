@@ -10,9 +10,27 @@
 		84938152990F97C18DC24187 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1532ECCB3E5F727DFD9234 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework */; };
 		9B77115ACA52D84CC40D5512 /* Pods_HostelworldChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C044A8D985DB233B6B89060 /* Pods_HostelworldChallenge.framework */; };
 		ADE0B5AEB9A0C86EDE742AEB /* Pods_HostelworldChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD10AC3C3DBA74C62842447 /* Pods_HostelworldChallengeTests.framework */; };
+		E9E1905229B65CEF00804054 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905129B65CEF00804054 /* AppCoordinator.swift */; };
+		E9E1905429B65D3500804054 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905329B65D3500804054 /* CoordinatorProtocol.swift */; };
+		E9E1905729B65DDE00804054 /* CustomHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905629B65DDE00804054 /* CustomHostingController.swift */; };
+		E9E1905929B65E0500804054 /* ViewControllableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905829B65E0500804054 /* ViewControllableProtocol.swift */; };
+		E9E1905E29B65E4A00804054 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905D29B65E4A00804054 /* HomeCoordinator.swift */; };
+		E9E1906029B65F5300804054 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905F29B65F5300804054 /* HomeViewModel.swift */; };
+		E9E1906229B65FD100804054 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1906129B65FD100804054 /* HomeView.swift */; };
+		E9E1906429B663F100804054 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1906329B663F100804054 /* TableView.swift */; };
+		E9E1906629B6665E00804054 /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1906529B6665E00804054 /* PropertyTableViewCell.swift */; };
+		E9E1906B29B681C400804054 /* PropertiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1906A29B681C400804054 /* PropertiesService.swift */; };
+		E9E1906F29B682CB00804054 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1906E29B682CB00804054 /* ApiRouter.swift */; };
+		E9E1907129B6833400804054 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907029B6833400804054 /* NetworkLayer.swift */; };
+		E9E1907429B684D800804054 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907329B684D800804054 /* Property.swift */; };
+		E9E1907629B6856A00804054 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907529B6856A00804054 /* City.swift */; };
+		E9E1907829B6863100804054 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907729B6863100804054 /* Image.swift */; };
+		E9E1907A29B6869500804054 /* OverallRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907929B6869500804054 /* OverallRating.swift */; };
+		E9E1907C29B6871700804054 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907B29B6871700804054 /* Properties.swift */; };
+		E9E1907E29B6B7D000804054 /* PropertyCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907D29B6B7D000804054 /* PropertyCellData.swift */; };
+		E9E1908129B6B83D00804054 /* PropertyCellDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1908029B6B83D00804054 /* PropertyCellDataProtocol.swift */; };
 		E9F5536E29B656A100328A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5536D29B656A100328A38 /* AppDelegate.swift */; };
 		E9F5537029B656A100328A38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5536F29B656A100328A38 /* SceneDelegate.swift */; };
-		E9F5537229B656A100328A38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5537129B656A100328A38 /* ViewController.swift */; };
 		E9F5537529B656A100328A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F5537329B656A100328A38 /* Main.storyboard */; };
 		E9F5537729B656A200328A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F5537629B656A200328A38 /* Assets.xcassets */; };
 		E9F5537A29B656A200328A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F5537829B656A200328A38 /* LaunchScreen.storyboard */; };
@@ -47,10 +65,28 @@
 		AA3CAEF1B3CCDEA30ACE8D38 /* Pods-HostelworldChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-HostelworldChallengeTests/Pods-HostelworldChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF1532ECCB3E5F727DFD9234 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HostelworldChallenge_HostelworldChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50F5F05B96D09B5586F17BB /* Pods-HostelworldChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallenge.release.xcconfig"; path = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		E9E1905129B65CEF00804054 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E9E1905329B65D3500804054 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		E9E1905629B65DDE00804054 /* CustomHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHostingController.swift; sourceTree = "<group>"; };
+		E9E1905829B65E0500804054 /* ViewControllableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllableProtocol.swift; sourceTree = "<group>"; };
+		E9E1905D29B65E4A00804054 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		E9E1905F29B65F5300804054 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E9E1906129B65FD100804054 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E9E1906329B663F100804054 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		E9E1906529B6665E00804054 /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
+		E9E1906A29B681C400804054 /* PropertiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesService.swift; sourceTree = "<group>"; };
+		E9E1906E29B682CB00804054 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		E9E1907029B6833400804054 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		E9E1907329B684D800804054 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		E9E1907529B6856A00804054 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		E9E1907729B6863100804054 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E9E1907929B6869500804054 /* OverallRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallRating.swift; sourceTree = "<group>"; };
+		E9E1907B29B6871700804054 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		E9E1907D29B6B7D000804054 /* PropertyCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCellData.swift; sourceTree = "<group>"; };
+		E9E1908029B6B83D00804054 /* PropertyCellDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCellDataProtocol.swift; sourceTree = "<group>"; };
 		E9F5536A29B656A100328A38 /* HostelworldChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostelworldChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F5536D29B656A100328A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F5536F29B656A100328A38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9F5537129B656A100328A38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9F5537429B656A100328A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9F5537629B656A200328A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9F5537929B656A200328A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +137,6 @@
 				AA3CAEF1B3CCDEA30ACE8D38 /* Pods-HostelworldChallengeTests.debug.xcconfig */,
 				03BFE9C96CC08BC739FE7755 /* Pods-HostelworldChallengeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +148,119 @@
 				EBD10AC3C3DBA74C62842447 /* Pods_HostelworldChallengeTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9E1904E29B65C9400804054 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1906C29B682B900804054 /* Network */,
+				E9E1905029B65CE200804054 /* Coordinators */,
+				E9E1905529B65D9600804054 /* Navigation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E9E1904F29B65C9800804054 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1907F29B6B7ED00804054 /* Protocols */,
+				E9E1907229B6837000804054 /* Models */,
+				E9E1906729B6816500804054 /* Services */,
+				E9E1905A29B65E2100804054 /* Coordinators */,
+				E9E1905B29B65E2700804054 /* ViewModels */,
+				E9E1905C29B65E2F00804054 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E9E1905029B65CE200804054 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1905129B65CEF00804054 /* AppCoordinator.swift */,
+				E9E1905329B65D3500804054 /* CoordinatorProtocol.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E9E1905529B65D9600804054 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1905629B65DDE00804054 /* CustomHostingController.swift */,
+				E9E1905829B65E0500804054 /* ViewControllableProtocol.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E9E1905A29B65E2100804054 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1905D29B65E4A00804054 /* HomeCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E9E1905B29B65E2700804054 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1905F29B65F5300804054 /* HomeViewModel.swift */,
+				E9E1907D29B6B7D000804054 /* PropertyCellData.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9E1905C29B65E2F00804054 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1906129B65FD100804054 /* HomeView.swift */,
+				E9E1906329B663F100804054 /* TableView.swift */,
+				E9E1906529B6665E00804054 /* PropertyTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9E1906729B6816500804054 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1906A29B681C400804054 /* PropertiesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E9E1906C29B682B900804054 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1906D29B682C000804054 /* Router */,
+				E9E1907029B6833400804054 /* NetworkLayer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E9E1906D29B682C000804054 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1906E29B682CB00804054 /* ApiRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E9E1907229B6837000804054 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1907329B684D800804054 /* Property.swift */,
+				E9E1907529B6856A00804054 /* City.swift */,
+				E9E1907729B6863100804054 /* Image.swift */,
+				E9E1907929B6869500804054 /* OverallRating.swift */,
+				E9E1907B29B6871700804054 /* Properties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9E1907F29B6B7ED00804054 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1908029B6B83D00804054 /* PropertyCellDataProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		E9F5536129B656A100328A38 = {
@@ -140,9 +288,10 @@
 		E9F5536C29B656A100328A38 /* HostelworldChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				E9E1904F29B65C9800804054 /* Home */,
+				E9E1904E29B65C9400804054 /* Core */,
 				E9F5536D29B656A100328A38 /* AppDelegate.swift */,
 				E9F5536F29B656A100328A38 /* SceneDelegate.swift */,
-				E9F5537129B656A100328A38 /* ViewController.swift */,
 				E9F5537329B656A100328A38 /* Main.storyboard */,
 				E9F5537629B656A200328A38 /* Assets.xcassets */,
 				E9F5537829B656A200328A38 /* LaunchScreen.storyboard */,
@@ -371,9 +520,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9F5537229B656A100328A38 /* ViewController.swift in Sources */,
+				E9E1905929B65E0500804054 /* ViewControllableProtocol.swift in Sources */,
+				E9E1907829B6863100804054 /* Image.swift in Sources */,
+				E9E1906029B65F5300804054 /* HomeViewModel.swift in Sources */,
+				E9E1906629B6665E00804054 /* PropertyTableViewCell.swift in Sources */,
+				E9E1907E29B6B7D000804054 /* PropertyCellData.swift in Sources */,
+				E9E1908129B6B83D00804054 /* PropertyCellDataProtocol.swift in Sources */,
+				E9E1907129B6833400804054 /* NetworkLayer.swift in Sources */,
+				E9E1905229B65CEF00804054 /* AppCoordinator.swift in Sources */,
+				E9E1906229B65FD100804054 /* HomeView.swift in Sources */,
+				E9E1907C29B6871700804054 /* Properties.swift in Sources */,
+				E9E1905429B65D3500804054 /* CoordinatorProtocol.swift in Sources */,
+				E9E1905729B65DDE00804054 /* CustomHostingController.swift in Sources */,
+				E9E1907629B6856A00804054 /* City.swift in Sources */,
+				E9E1905E29B65E4A00804054 /* HomeCoordinator.swift in Sources */,
 				E9F5536E29B656A100328A38 /* AppDelegate.swift in Sources */,
+				E9E1906429B663F100804054 /* TableView.swift in Sources */,
+				E9E1906B29B681C400804054 /* PropertiesService.swift in Sources */,
 				E9F5537029B656A100328A38 /* SceneDelegate.swift in Sources */,
+				E9E1907A29B6869500804054 /* OverallRating.swift in Sources */,
+				E9E1907429B684D800804054 /* Property.swift in Sources */,
+				E9E1906F29B682CB00804054 /* ApiRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

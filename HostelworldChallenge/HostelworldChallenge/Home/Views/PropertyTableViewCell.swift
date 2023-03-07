@@ -18,6 +18,7 @@ final class PropertyTableViewCell: UITableViewCell {
         static let overallRating = "Overall rating: "
         static let percentageSimbol = "%"
         static let propertyImageViewSize: CGFloat = 70
+        static let propertyImageViewCornerRadius: CGFloat = 35
     }
 
     // MARK: Constants
@@ -64,7 +65,7 @@ final class PropertyTableViewCell: UITableViewCell {
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.backgroundColor = .lightGray
-        imageView.layer.cornerRadius = 35
+        imageView.layer.cornerRadius = Constants.propertyImageViewCornerRadius
         return imageView
     }()
 

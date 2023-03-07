@@ -22,7 +22,7 @@ struct PropertyDetail: Codable {
     let paymentMethods: [String]
     let policies: [String]
     let totalRatings: String
-    let images: [Image]
+    let images: [PropertyImage]
     let type: String
     let depositPercentage: Int
     let associations: [String]

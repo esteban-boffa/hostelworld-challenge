@@ -8,8 +8,8 @@
 import Foundation
 
 final class PropertyDetailService: PropertyDetailServiceProtocol {
-    func getPropertyDetail(with id: String, completion: ((Result<PropertyDetail, Error>) -> ())? = nil) {
-        NetworkLayer.request(router: ApiRouter.getPropertyDetail(id: id)) { (result: Result<PropertyDetail, Error>) in
+    func getPropertyDetail(with id: String, completion: ((Result<PropertyDetail, NetworkError>) -> ())? = nil) {
+        NetworkLayer.request(router: ApiRouter.getPropertyDetail(id: id)) { (result: Result<PropertyDetail, NetworkError>) in
             completion?(result)
         }
     }

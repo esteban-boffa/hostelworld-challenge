@@ -8,15 +8,25 @@
 import Foundation
 import UIKit
 
+enum NetworkError: Error {
+    case decodingError(Error)
+    case statusCode(Int)
+    case badURL
+    case unknown(Error?)
+}
+
 struct NetworkLayer {
-    static func request<T: Codable>(router: ApiRouter, completion: @escaping (Result<T, Error>) -> ()) {
+    static func request<T: Codable>(router: ApiRouter, completion: @escaping (Result<T, NetworkError>) -> ()) {
         var components = URLComponents()
         components.scheme = router.scheme
         components.host = router.host
         components.path = router.path
         let url = components.url
 
-        guard let url else { return }
+        guard let url else {
+            completion(.failure(.badURL))
+            return
+        }
         let urlRequest = URLRequest(url: url)
         let session = URLSession(configuration: .default)
 
@@ -25,7 +35,10 @@ struct NetworkLayer {
                 error == nil,
                 let data,
                 let response = response as? HTTPURLResponse
-            else { return }
+            else {
+                completion(.failure(.unknown(error)))
+                return
+            }
             guard (200...299).contains(response.statusCode) else {
                 var message = ""
                 do {
@@ -37,18 +50,16 @@ struct NetworkLayer {
                     print(error)
                 }
                 print(message)
+                completion(.failure(.statusCode(response.statusCode)))
                 return
             }
             do {
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let responseObject = try decoder.decode(T.self, from: data)
-                DispatchQueue.main.async {
-                    completion(.success(responseObject))
-                }
+                completion(.success(responseObject))
             } catch let error {
-                completion(.failure(error))
-                print(error.localizedDescription)
+                completion(.failure(.decodingError(error)))
             }
         }
         dataTask.resume()

@@ -20,6 +20,8 @@ struct HomeView: View, ViewControllableProtocol {
             VStack {
                 Color.white
                     .frame(height: 8)
+                // SwiftUI list is not used since it allows a maximum number of 10 items
+                // Furthermore the UITableView allows us to reuse cells
                 TableView(viewModel: viewModel)
                     .padding([.leading, .trailing], 16)
             }

@@ -56,15 +56,17 @@ extension HomeViewModel {
 extension HomeViewModel {
     func fetchProperties() {
         showingProgressView = true
-        propertiesService.getProperties() { [weak self] (result: Result<Properties, Error>) in
+        propertiesService.getProperties() { [weak self] (result: Result<Properties, NetworkError>) in
             guard let self else { return }
-            self.showingProgressView = false
-            switch result {
-            case .success(let properties):
-                self.properties = properties
-            case .failure(let error):
-                // Handle error
-                print(error)
+            DispatchQueue.main.async {
+                self.showingProgressView = false
+                switch result {
+                case .success(let properties):
+                    self.properties = properties
+                case .failure(let error):
+                    // Handle error
+                    print(error)
+                }
             }
         }
     }

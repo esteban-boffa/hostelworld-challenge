@@ -12,6 +12,6 @@ protocol PropertiesServiceProtocol {
     /// Returns the properties in a city
     ///
     /// - Parameters:
-    /// - completion: The completion with a Result<Properties, Error>)
-    func getProperties(completion: ((Result<Properties, Error>) -> ())?)
+    /// - completion: The completion with a Result<Properties, NetworkError>)
+    func getProperties(completion: ((Result<Properties, NetworkError>) -> ())?)
 }

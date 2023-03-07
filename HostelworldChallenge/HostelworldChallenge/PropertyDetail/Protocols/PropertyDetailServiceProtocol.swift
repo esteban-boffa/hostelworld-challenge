@@ -13,6 +13,6 @@ protocol PropertyDetailServiceProtocol {
     ///
     /// - Parameters:
     /// - id: The id of the property
-    /// - completion: The completion with a Result<PropertyDetail, Error>)
-    func getPropertyDetail(with id: String, completion: ((Result<PropertyDetail, Error>) -> ())?)
+    /// - completion: The completion with a Result<PropertyDetail, NetworkError>)
+    func getPropertyDetail(with id: String, completion: ((Result<PropertyDetail, NetworkError>) -> ())?)
 }

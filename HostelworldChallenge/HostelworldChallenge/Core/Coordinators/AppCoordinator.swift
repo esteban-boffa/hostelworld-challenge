@@ -28,6 +28,7 @@ final class AppCoordinator: CoordinatorProtocol {
     @MainActor
     func start() -> UIViewController? {
         homeCoordinator = HomeCoordinator(presentationStyle: .pushed(nil))
+        homeCoordinator?.delegate = self
         guard let viewController = homeCoordinator?.start() else { return nil }
         rootViewController = viewController
         return rootViewController

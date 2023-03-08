@@ -11,6 +11,11 @@
 		9B77115ACA52D84CC40D5512 /* Pods_HostelworldChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C044A8D985DB233B6B89060 /* Pods_HostelworldChallenge.framework */; };
 		ADE0B5AEB9A0C86EDE742AEB /* Pods_HostelworldChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD10AC3C3DBA74C62842447 /* Pods_HostelworldChallengeTests.framework */; };
 		E9512F7729B7FA5000B24F5D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9512F7629B7FA5000B24F5D /* View+Extensions.swift */; };
+		E9512F7929B823FC00B24F5D /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9512F7829B823FC00B24F5D /* HomeCoordinatorTests.swift */; };
+		E9512F7B29B831AE00B24F5D /* PropertyCellDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9512F7A29B831AE00B24F5D /* PropertyCellDataTests.swift */; };
+		E9512F7D29B832C200B24F5D /* PropertyTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9512F7C29B832C200B24F5D /* PropertyTableViewCellTests.swift */; };
+		E9512F7F29B8370D00B24F5D /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9512F7E29B8370D00B24F5D /* HomeViewModelTests.swift */; };
+		E9512F8129B83AD700B24F5D /* MockedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9512F8029B83AD700B24F5D /* MockedProperties.swift */; };
 		E9E1905229B65CEF00804054 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905129B65CEF00804054 /* AppCoordinator.swift */; };
 		E9E1905429B65D3500804054 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905329B65D3500804054 /* CoordinatorProtocol.swift */; };
 		E9E1905729B65DDE00804054 /* CustomHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1905629B65DDE00804054 /* CustomHostingController.swift */; };
@@ -77,6 +82,11 @@
 		CF1532ECCB3E5F727DFD9234 /* Pods_HostelworldChallenge_HostelworldChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HostelworldChallenge_HostelworldChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50F5F05B96D09B5586F17BB /* Pods-HostelworldChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HostelworldChallenge.release.xcconfig"; path = "Target Support Files/Pods-HostelworldChallenge/Pods-HostelworldChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		E9512F7629B7FA5000B24F5D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		E9512F7829B823FC00B24F5D /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
+		E9512F7A29B831AE00B24F5D /* PropertyCellDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCellDataTests.swift; sourceTree = "<group>"; };
+		E9512F7C29B832C200B24F5D /* PropertyTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCellTests.swift; sourceTree = "<group>"; };
+		E9512F7E29B8370D00B24F5D /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		E9512F8029B83AD700B24F5D /* MockedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedProperties.swift; sourceTree = "<group>"; };
 		E9E1905129B65CEF00804054 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E9E1905329B65D3500804054 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		E9E1905629B65DDE00804054 /* CustomHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHostingController.swift; sourceTree = "<group>"; };
@@ -401,6 +411,11 @@
 			isa = PBXGroup;
 			children = (
 				E9F5538429B656A200328A38 /* HostelworldChallengeTests.swift */,
+				E9512F7829B823FC00B24F5D /* HomeCoordinatorTests.swift */,
+				E9512F7A29B831AE00B24F5D /* PropertyCellDataTests.swift */,
+				E9512F7C29B832C200B24F5D /* PropertyTableViewCellTests.swift */,
+				E9512F7E29B8370D00B24F5D /* HomeViewModelTests.swift */,
+				E9512F8029B83AD700B24F5D /* MockedProperties.swift */,
 			);
 			path = HostelworldChallengeTests;
 			sourceTree = "<group>";
@@ -656,7 +671,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9512F7F29B8370D00B24F5D /* HomeViewModelTests.swift in Sources */,
+				E9512F8129B83AD700B24F5D /* MockedProperties.swift in Sources */,
+				E9512F7D29B832C200B24F5D /* PropertyTableViewCellTests.swift in Sources */,
+				E9512F7B29B831AE00B24F5D /* PropertyCellDataTests.swift in Sources */,
 				E9F5538529B656A200328A38 /* HostelworldChallengeTests.swift in Sources */,
+				E9512F7929B823FC00B24F5D /* HomeCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

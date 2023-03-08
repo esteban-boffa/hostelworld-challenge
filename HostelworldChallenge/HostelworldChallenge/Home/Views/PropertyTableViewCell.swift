@@ -27,7 +27,7 @@ final class PropertyTableViewCell: UITableViewCell {
 
     // MARK: Private Properties
 
-    private lazy var propertyNameLabel: UILabel = {
+    private(set) lazy var propertyNameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .left
@@ -35,7 +35,7 @@ final class PropertyTableViewCell: UITableViewCell {
         return label
     }()
 
-    private lazy var propertyTypeLabel: UILabel = {
+    private(set) lazy var propertyTypeLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .left
@@ -43,7 +43,7 @@ final class PropertyTableViewCell: UITableViewCell {
         return label
     }()
 
-    private lazy var cityNameLabel: UILabel = {
+    private(set) lazy var cityNameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .left
@@ -51,7 +51,7 @@ final class PropertyTableViewCell: UITableViewCell {
         return label
     }()
 
-    private lazy var overallRatingLabel: UILabel = {
+    private(set) lazy var overallRatingLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .left
@@ -59,7 +59,7 @@ final class PropertyTableViewCell: UITableViewCell {
         return label
     }()
 
-    private lazy var propertyImageView: UIImageView = {
+    private(set) lazy var propertyImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFill

@@ -18,7 +18,7 @@ final class HomeViewModel: ObservableObject {
 
     @Published private(set) var showingProgressView = false
     @Published private(set) var properties: Properties?
-    private let propertiesService = PropertiesService()
+    private let propertiesService: PropertiesServiceProtocol
 
     // MARK: Properties
 
@@ -26,7 +26,8 @@ final class HomeViewModel: ObservableObject {
 
     // MARK: Init
 
-    init() {
+    init(propertiesService: PropertiesServiceProtocol = PropertiesService()) {
+        self.propertiesService = propertiesService
         fetchProperties()
     }
 }
@@ -83,9 +84,9 @@ extension HomeViewModel {
     }
 }
 
-// MARK: Private methods
+// MARK: Helpers
 
-private extension HomeViewModel {
+extension HomeViewModel {
     func getThumbnailImageURLString(_ property: Property) -> String {
         guard let image = property.images.first else { return "" }
         // Update "http" to "https" to fix the following security error:

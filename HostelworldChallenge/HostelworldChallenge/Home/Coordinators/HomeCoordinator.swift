@@ -56,9 +56,9 @@ final class HomeCoordinator: CoordinatorProtocol {
     }
 }
 
-// MARK: Private methods
+// MARK: Methods
 
-private extension HomeCoordinator {
+extension HomeCoordinator {
     @MainActor
     func showPropertyDetailView(with id: String) {
         guard let navigationController = rootViewController as? UINavigationController else { return }

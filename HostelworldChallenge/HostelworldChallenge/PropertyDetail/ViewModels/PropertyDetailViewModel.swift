@@ -99,6 +99,8 @@ extension PropertyDetailViewModel {
                     self.state = .success
                 case .failure(let error):
                     // Handle error
+                    // Sometimes it fails because the mocks are returning different types for checkIn.
+                    // Some mocks bring Strings and others Ints.
                     self.state = .error
                     #if DEBUG
                     print("ERROR --> \(error)")

@@ -104,7 +104,9 @@ extension PropertyTableViewCell {
 
 private extension PropertyTableViewCell {
     func setupCellStyle() {
-        backgroundColor = .white
+        backgroundColor = UIColor.init { (trait) -> UIColor in
+            return trait.userInterfaceStyle == .dark ? .black : .white
+        }
     }
 
     func setupViews() {

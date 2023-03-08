@@ -71,6 +71,8 @@ struct PropertyDetailView: View, ViewControllableProtocol {
                     }
                 }
             case .error:
+                // It fails because mock responses for checkIn are wrong
+                // They return different types (String and Int)
                 Text(Constants.errorMessage)
                     .foregroundColor(.red)
                     .multilineTextAlignment(.center)

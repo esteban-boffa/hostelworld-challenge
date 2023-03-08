@@ -299,9 +299,9 @@
 		E9E1908729B6F5B800804054 /* PropertyDetail */ = {
 			isa = PBXGroup;
 			children = (
-				E9E1909E29B7B31600804054 /* Protocols */,
 				E9E1908829B6F5DC00804054 /* Coordinators */,
 				E9E1908E29B6F63000804054 /* Models */,
+				E9E1909E29B7B31600804054 /* Protocols */,
 				E9E1908C29B6F5FA00804054 /* Services */,
 				E9E1908929B6F5E500804054 /* ViewModels */,
 				E9E1908D29B6F60E00804054 /* Views */,

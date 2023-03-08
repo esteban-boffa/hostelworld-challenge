@@ -29,7 +29,7 @@ enum ApiRouter {
 
     var host: String {
         switch self {
-        case .getProperties, .getPropertyDetail(_):
+        case .getProperties, .getPropertyDetail:
             return Constants.getHostelworldHost
         }
     }

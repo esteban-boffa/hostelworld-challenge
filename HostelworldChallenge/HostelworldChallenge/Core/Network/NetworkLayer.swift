@@ -66,30 +66,30 @@ struct NetworkLayer {
     }
 
     static func request(imageUrl: String, success: ((UIImage) -> Void)?) {
-            guard let url = URL(string: imageUrl) else { return }
-            let cache = URLCache.shared
-            let request = URLRequest(url: url)
-            if let data = cache.cachedResponse(for: request)?.data, let image = UIImage(data: data) {
-                success?(image)
-                #if DEBUG
-                print("Retrieve image from Cache")
-                #endif
-            } else {
-                let session = URLSession(configuration: .default)
-                session.dataTask(with: request, completionHandler: { data, response, error in
-                    if
-                        let data = data,
-                        let response, ((response as? HTTPURLResponse)?.statusCode ?? 500) < 300,
-                        let image = UIImage(data: data)
-                    {
-                        let cachedData = CachedURLResponse(response: response, data: data)
-                        cache.storeCachedResponse(cachedData, for: request)
-                        #if DEBUG
-                        print("Retrieve image from Network")
-                        #endif
-                        success?(image)
-                    }
-                }).resume()
-            }
+        guard let url = URL(string: imageUrl) else { return }
+        let cache = URLCache.shared
+        let request = URLRequest(url: url)
+        if let data = cache.cachedResponse(for: request)?.data, let image = UIImage(data: data) {
+            success?(image)
+            #if DEBUG
+            print("Retrieve image from Cache")
+            #endif
+        } else {
+            let session = URLSession(configuration: .default)
+            session.dataTask(with: request, completionHandler: { data, response, error in
+                if
+                    let data = data,
+                    let response, ((response as? HTTPURLResponse)?.statusCode ?? 500) < 300,
+                    let image = UIImage(data: data)
+                {
+                    let cachedData = CachedURLResponse(response: response, data: data)
+                    cache.storeCachedResponse(cachedData, for: request)
+                    #if DEBUG
+                    print("Retrieve image from Network")
+                    #endif
+                    success?(image)
+                }
+            }).resume()
         }
+    }
 }

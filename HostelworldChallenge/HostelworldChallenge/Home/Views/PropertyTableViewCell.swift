@@ -74,7 +74,7 @@ final class PropertyTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupCellStyle()
-        setupLabel()
+        setupViews()
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -90,7 +90,8 @@ final class PropertyTableViewCell: UITableViewCell {
 // MARK: Setup cell
 
 extension PropertyTableViewCell {
-    func setupCell(_ data: PropertyCellDataProtocol) {
+    func setupCell(_ data: PropertyCellDataProtocol?) {
+        guard let data else { return }
         propertyNameLabel.text = data.propertyName
         propertyTypeLabel.text = Constants.type + data.propertyType
         cityNameLabel.text = Constants.city + data.cityName
@@ -106,7 +107,7 @@ private extension PropertyTableViewCell {
         backgroundColor = .white
     }
 
-    func setupLabel() {
+    func setupViews() {
         [
             propertyNameLabel,
             propertyTypeLabel,

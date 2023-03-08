@@ -25,7 +25,7 @@
 		E9E1907129B6833400804054 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907029B6833400804054 /* NetworkLayer.swift */; };
 		E9E1907429B684D800804054 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907329B684D800804054 /* Property.swift */; };
 		E9E1907629B6856A00804054 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907529B6856A00804054 /* City.swift */; };
-		E9E1907829B6863100804054 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907729B6863100804054 /* Image.swift */; };
+		E9E1907829B6863100804054 /* PropertyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907729B6863100804054 /* PropertyImage.swift */; };
 		E9E1907A29B6869500804054 /* OverallRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907929B6869500804054 /* OverallRating.swift */; };
 		E9E1907C29B6871700804054 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907B29B6871700804054 /* Properties.swift */; };
 		E9E1907E29B6B7D000804054 /* PropertyCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1907D29B6B7D000804054 /* PropertyCellData.swift */; };
@@ -91,7 +91,7 @@
 		E9E1907029B6833400804054 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		E9E1907329B684D800804054 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		E9E1907529B6856A00804054 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
-		E9E1907729B6863100804054 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E9E1907729B6863100804054 /* PropertyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyImage.swift; sourceTree = "<group>"; };
 		E9E1907929B6869500804054 /* OverallRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallRating.swift; sourceTree = "<group>"; };
 		E9E1907B29B6871700804054 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		E9E1907D29B6B7D000804054 /* PropertyCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCellData.swift; sourceTree = "<group>"; };
@@ -175,10 +175,10 @@
 		E9E1904E29B65C9400804054 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E9E1908229B6EB7F00804054 /* Extensions */,
-				E9E1906C29B682B900804054 /* Network */,
 				E9E1905029B65CE200804054 /* Coordinators */,
+				E9E1908229B6EB7F00804054 /* Extensions */,
 				E9E1905529B65D9600804054 /* Navigation */,
+				E9E1906C29B682B900804054 /* Network */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -186,10 +186,10 @@
 		E9E1904F29B65C9800804054 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E9E1907F29B6B7ED00804054 /* Protocols */,
-				E9E1907229B6837000804054 /* Models */,
-				E9E1906729B6816500804054 /* Services */,
 				E9E1905A29B65E2100804054 /* Coordinators */,
+				E9E1907229B6837000804054 /* Models */,
+				E9E1907F29B6B7ED00804054 /* Protocols */,
+				E9E1906729B6816500804054 /* Services */,
 				E9E1905B29B65E2700804054 /* ViewModels */,
 				E9E1905C29B65E2F00804054 /* Views */,
 			);
@@ -235,8 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				E9E1906129B65FD100804054 /* HomeView.swift */,
-				E9E1906329B663F100804054 /* TableView.swift */,
 				E9E1906529B6665E00804054 /* PropertyTableViewCell.swift */,
+				E9E1906329B663F100804054 /* TableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,11 +269,11 @@
 		E9E1907229B6837000804054 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E9E1907329B684D800804054 /* Property.swift */,
 				E9E1907529B6856A00804054 /* City.swift */,
-				E9E1907729B6863100804054 /* Image.swift */,
 				E9E1907929B6869500804054 /* OverallRating.swift */,
 				E9E1907B29B6871700804054 /* Properties.swift */,
+				E9E1907329B684D800804054 /* Property.swift */,
+				E9E1907729B6863100804054 /* PropertyImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -281,8 +281,8 @@
 		E9E1907F29B6B7ED00804054 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				E9E1908029B6B83D00804054 /* PropertyCellDataProtocol.swift */,
 				E9E1908529B6F40700804054 /* PropertiesServiceProtocol.swift */,
+				E9E1908029B6B83D00804054 /* PropertyCellDataProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -384,9 +384,9 @@
 		E9F5536C29B656A100328A38 /* HostelworldChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				E9E1904E29B65C9400804054 /* Core */,
 				E9E1904F29B65C9800804054 /* Home */,
 				E9E1908729B6F5B800804054 /* PropertyDetail */,
-				E9E1904E29B65C9400804054 /* Core */,
 				E9F5536D29B656A100328A38 /* AppDelegate.swift */,
 				E9F5536F29B656A100328A38 /* SceneDelegate.swift */,
 				E9F5537329B656A100328A38 /* Main.storyboard */,
@@ -619,7 +619,7 @@
 			files = (
 				E9E1905929B65E0500804054 /* ViewControllableProtocol.swift in Sources */,
 				E9E1909D29B7AE0900804054 /* CheckIn.swift in Sources */,
-				E9E1907829B6863100804054 /* Image.swift in Sources */,
+				E9E1907829B6863100804054 /* PropertyImage.swift in Sources */,
 				E9E1906029B65F5300804054 /* HomeViewModel.swift in Sources */,
 				E9E1909929B7A5B200804054 /* PropertyDetail.swift in Sources */,
 				E9E1906629B6665E00804054 /* PropertyTableViewCell.swift in Sources */,

@@ -60,7 +60,7 @@ struct TableView: UIViewRepresentable {
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             if let rowCell = tableView.dequeueReusableCell(withIdentifier: PropertyTableViewCell.cellIdentifier, for: indexPath) as? PropertyTableViewCell {
                 let data = self.tableView.viewModel.dataForCellAt(indexPath: indexPath)
-                rowCell.setupCell(data!)
+                rowCell.setupCell(data)
                 return rowCell
             }
             return UITableViewCell()

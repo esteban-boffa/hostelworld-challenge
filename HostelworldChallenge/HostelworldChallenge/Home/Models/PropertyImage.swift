@@ -1,5 +1,5 @@
 //
-//  Image.swift
+//  PropertyImage.swift
 //  HostelworldChallenge
 //
 //  Created by Esteban Boffa on 06/03/2023.

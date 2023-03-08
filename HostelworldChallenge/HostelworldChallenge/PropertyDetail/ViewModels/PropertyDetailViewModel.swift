@@ -30,11 +30,11 @@ final class PropertyDetailViewModel: ObservableObject {
     @Published private(set) var state: DetailState = .loading
     @Published private(set) var image: UIImage?
     private(set) var propertyDetail: PropertyDetail?
-    private let propertyDetailService = PropertyDetailService()
-    private let id: String
+    private let propertyDetailService: PropertyDetailServiceProtocol
 
     // MARK: Properties
 
+    let id: String
     weak var delegate: PropertyDetailViewModelDelegate?
 
     var propertyName: String {
@@ -75,8 +75,9 @@ final class PropertyDetailViewModel: ObservableObject {
 
     // MARK: Init
 
-    init(id: String) {
+    init(id: String, propertyDetailService: PropertyDetailServiceProtocol = PropertyDetailService()) {
         self.id = id
+        self.propertyDetailService = propertyDetailService
         fetchPropertyDetail()
     }
 }

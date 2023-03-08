@@ -15,7 +15,7 @@ final class HomeViewModelTests: XCTestCase {
     // MARK: Tests
 
     @MainActor
-    func test_init_shouldCallFetchProperties() {
+    func test_init_shouldCallFetchPropertiesMethod() {
         let mockedService = MockedPropertiesService(result: .success)
         _ = HomeViewModel(propertiesService: mockedService)
         XCTAssertEqual(mockedService.getPropertiesMethodWasCalled, 1)

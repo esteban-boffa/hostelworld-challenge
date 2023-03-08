@@ -20,7 +20,7 @@ final class PropertyDetailCoordinator: CoordinatorProtocol {
         static let homeViewTitle = "Property detail"
     }
 
-    private let id: String
+    let id: String
 
     // MARK: Properties
 
@@ -72,15 +72,7 @@ extension PropertyDetailCoordinator {
             return
         }
     }
-}
 
-// MARK: PropertyDetailViewModelDelegate
-
-extension PropertyDetailCoordinator: PropertyDetailViewModelDelegate {}
-
-// MARK: Private methods
-
-private extension PropertyDetailCoordinator {
     func handleViewDisappearance() {
         switch presentationStyle {
         case .pushed:
@@ -94,3 +86,7 @@ private extension PropertyDetailCoordinator {
         }
     }
 }
+
+// MARK: PropertyDetailViewModelDelegate
+
+extension PropertyDetailCoordinator: PropertyDetailViewModelDelegate {}

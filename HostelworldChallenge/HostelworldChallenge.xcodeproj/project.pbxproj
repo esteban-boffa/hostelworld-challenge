@@ -369,6 +369,25 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		E9EEC8AB29B9218500D43855 /* HomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9512F7E29B8370D00B24F5D /* HomeViewModelTests.swift */,
+				E9512F7C29B832C200B24F5D /* PropertyTableViewCellTests.swift */,
+				E9512F7A29B831AE00B24F5D /* PropertyCellDataTests.swift */,
+				E9512F7829B823FC00B24F5D /* HomeCoordinatorTests.swift */,
+			);
+			path = HomeTests;
+			sourceTree = "<group>";
+		};
+		E9EEC8AC29B921C000D43855 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E9512F8029B83AD700B24F5D /* MockedProperties.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		E9F5536129B656A100328A38 = {
 			isa = PBXGroup;
 			children = (
@@ -410,12 +429,9 @@
 		E9F5538329B656A200328A38 /* HostelworldChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				E9EEC8AB29B9218500D43855 /* HomeTests */,
+				E9EEC8AC29B921C000D43855 /* Mocks */,
 				E9F5538429B656A200328A38 /* HostelworldChallengeTests.swift */,
-				E9512F7829B823FC00B24F5D /* HomeCoordinatorTests.swift */,
-				E9512F7A29B831AE00B24F5D /* PropertyCellDataTests.swift */,
-				E9512F7C29B832C200B24F5D /* PropertyTableViewCellTests.swift */,
-				E9512F7E29B8370D00B24F5D /* HomeViewModelTests.swift */,
-				E9512F8029B83AD700B24F5D /* MockedProperties.swift */,
 			);
 			path = HostelworldChallengeTests;
 			sourceTree = "<group>";
